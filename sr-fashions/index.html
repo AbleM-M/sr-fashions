@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SR Fashions | Stitching, Alterations &amp; Hemming</title>
+  <meta name="description" content="SR Fashions offers sale, stitching, alterations and hemming. Get in touch to make an enquiry.">
+
+  <!-- Lets the CSS know JavaScript is running, so the scroll animations only hide things when they can reveal them -->
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Fonts: Kaushan Script for the brand name, Inter for everything else -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVIGATION: sticks to the top while you scroll -->
+  <header class="nav">
+    <a class="nav-brand" href="index.html">
+      <img class="logo" src="images/logo.png" alt="SR Fashions logo">
+      <span class="brand">SR Fashions</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero reveal">
+      <p class="eyebrow">Stitching &middot; Alterations &middot; Hemming</p>
+      <h1>Clothes that fit <span class="accent">just right.</span></h1>
+      <p class="lead">From a quick hem to a full alteration, we'll get it done with care.</p>
+      <div class="buttons">
+        <a class="button" href="#contact">Get in touch</a>
+        <a class="button button-ghost" href="gallery.html">See our work</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section reveal" id="about">
+      <p class="label">About</p>
+      <!-- TODO: replace this with your own wording -->
+      <p class="about-text">
+        SR Fashions offers stitching, alterations and hemming. Tell us what you
+        need and we'll get it fitted just right.
+      </p>
+
+      <!-- Services as small tiles -->
+      <ul class="tiles">
+        <li><span>01</span>Sale</li>
+        <li><span>02</span>Stitching</li>
+        <li><span>03</span>Alterations</li>
+        <li><span>04</span>Hemming</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+      <p class="label">Contact</p>
+      <h2>Let's talk</h2>
+      <div class="contact-grid">
+        <!-- TODO: paste your real WhatsApp group invite link -->
+        <a class="contact-card contact-dark" href="https://chat.whatsapp.com/HBY240DxSUoLeBFhK1lnaT" target="_blank" rel="noopener">
+          <h3>WhatsApp group</h3>
+          <p>The quickest way to reach us.</p>
+          <span class="arrow">Join the group &rarr;</span>
+        </a>
+        <!-- TODO: paste your real form link (Google Forms works well) -->
+        <a class="contact-card" href="https://forms.gle/2fCPQ9Nahna36ghp6" target="_blank" rel="noopener">
+          <h3>Enquiry form</h3>
+          <p>Prefer to write it down? Send us the details.</p>
+          <span class="arrow">Make an enquiry &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- IMAGES: previews that click through to the gallery page -->
+    <section class="section reveal" id="images">
+      <p class="label">Our work</p>
+      <h2>Recent pieces</h2>
+      <a class="preview" href="gallery.html" aria-label="View the full gallery">
+        <img src="images/sample-1.svg" alt="Example of our work 1">
+        <img src="images/sample-2.svg" alt="Example of our work 2">
+        <img src="images/sample-3.svg" alt="Example of our work 3">
+      </a>
+      <p class="more"><a href="gallery.html">View the full gallery &rarr;</a></p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 SR Fashions</p>
+  </footer>
+
+</body>
+</html>
